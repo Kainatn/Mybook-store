@@ -1,4 +1,4 @@
-﻿https://my-store.kk2111436.now.sh
+﻿https://my-store.kk2111436.now.sh,https://www.youtube.com/watch?v=MQVdgu8cpqU&list=PLnHJACx3NwAe5XQDk9xLgym7FF8Q4FYW7&index=5&t=0s
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
