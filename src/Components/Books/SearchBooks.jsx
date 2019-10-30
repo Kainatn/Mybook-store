@@ -1,18 +1,20 @@
 import React from 'react';
-import { Input, Row, Col} from 'antd';
-const { Search } = Input;
-
+import { Row, Col, Card, Container } from 'react-bootstrap';
+import './SeacrhBooks.css'
 const SearchBooks = () => {
     return (
-        <div>
-            <Row style={{ paddingTop: '3em' }}>
-                <Col span={12} offset={7}>
-                    <form>
-                        <Search placeholder="Search Your Book " onSearch={value => console.log(value)} enterButton style={{}} />
-                    </form>
+
+        <Container className="justify-content-center topRow"  >
+            <Row className="col-12">
+                <Col className="col-12  searchbox input-group" >
+                    <input type="text" className="form-control" placeholder="Search Books" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                    <div className="input-group-append" >
+                        <button className="input-group-text button">Search</button>
+                    </div>
                 </Col>
             </Row>
-        </div>
+        </Container>
+
     );
 }
 

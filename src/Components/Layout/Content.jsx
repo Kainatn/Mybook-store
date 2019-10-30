@@ -8,8 +8,8 @@ const MainContent = () => {
     return (
         <div>
             <Content style={{ background: '#8080800d' }}>
-                <SearchBooks/>
-                <Books/>
+                <SearchBooks />
+                <Books />
             </Content>
         </div>
     );

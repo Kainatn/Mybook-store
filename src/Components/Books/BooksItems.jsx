@@ -1,26 +1,22 @@
 import React, { Component } from 'react';
-import { Row, Col,Card } from 'react-bootstrap';
+import { Row, Col, Card, Container } from 'react-bootstrap';
+import './BooksItmes.css'
 
 export class BooksItems extends Component {
     render() {
         return (
-            <Row>
-                <Col xs={6} md={4}>
-                    <Card  text="black">
-                    Second, but last
-                    </Card>
-                </Col>
-                <Col xs={6} md={4}>
-                <Card  text="black">
-                    Second, but last
-                    </Card>
-                </Col>
-                <Col xs={6} md={4}>
-                <Card text="black">
-                    Second, but last
-                    </Card>
-                </Col>
-            </Row>
+
+
+            <Card className="card" >
+                <Card.Body>
+                    <Card.Title>mybook</Card.Title>
+                    <Card.Text>
+                        i made this book
+                         </Card.Text>
+
+                </Card.Body>
+            </Card >
+
         );
     }
 }

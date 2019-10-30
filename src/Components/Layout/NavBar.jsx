@@ -1,11 +1,11 @@
 import React from 'react';
-import {  Row } from 'antd';
+import { Row } from 'antd';
 import { Layout } from 'antd';
 const { Header } = Layout;
 const NavBar = () => {
     return (
         <div>
-            <Layout className="layout">
+            <Layout className="layout" >
 
                 <Header style={{ textAlign: 'center', lineHeight: '10px' }}>
                     <Row style={{ marginBottom: '2em' }}>
