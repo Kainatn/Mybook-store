@@ -3,3 +3,7 @@
     margin: 1em; 
     text-align: center;
 }
+.myItems{
+    display: flex;
+    flex-direction: row;
+}
