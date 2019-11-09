@@ -61,17 +61,23 @@ export class App extends Component {
 
   render() {
     // this.state.books.map(books => {
-    //   console.log(books.id);
+    //   console.log(books.volumeInfo.imageLinks.thumbnail);
     // })
     return (
       <Fragment>
         <NavBar />
         <SearchBooks />
         <Container>
-          <Row className=" myItems">
+          {/* <img src={this.state.books.}></img> */}
+          <Row className="myItems">
             {
-              this.state.books.map(Books =>
-                <BooksItems Books={Books} />)
+              this.state.books.length > 0?
+              this.state.books.map(Book =>
+                Book?
+                <BooksItems Book={Book} />
+                : null
+                )
+                :null
             }
           </Row>
         </Container>
