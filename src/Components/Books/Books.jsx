@@ -1,19 +1,32 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import PropType from 'prop-types';
-// import { Row, Col, Container } from 'react-bootstrap';
 // import BooksItems from './BooksItems'
 // import './Books.css';
+// // import axios from 'axios';
+// // import { async } from 'q';
+// import React, { Component } from 'react';
 
-// import React from 'react';
+// export class Books extends Component {
 
-// const Books = (props) => {
-//     return (
-      
-//             <Row style={{ marginTop: '30px' }}>
-//                 <BooksItems Books={props.Books} />
-//           </Row>
-      
-//     );
+//     constructor(props) {
+//         super(props)
+//         this.state = {
+//             books:[],
+//             term: ''
+
+//         }
+
+//     }
+
+
+
+//     render() {
+//         return (
+//             <>
+//             <BooksItems handleSearch={this.handleSearch} />
+//             <h2>hello bookitem</h2>
+//         </>);
+//     }
 // }
 
 // export default Books;

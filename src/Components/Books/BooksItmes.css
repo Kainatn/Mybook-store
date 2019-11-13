@@ -1,9 +1,15 @@
 .card{
     width:auto ; 
-    margin: 1em; 
+    /* margin: 0em  0.5em;  */
     text-align: center;
+
+ 
 }
 .myItems{
     display: flex;
     flex-direction: row;
+}
+.img-thumbnail{
+    width: 280px;
+    height:330px ;
 }

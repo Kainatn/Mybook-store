@@ -7,8 +7,8 @@ const NavBar = () => {
         <div>
             <Layout className="layout" >
 
-                <Header style={{ textAlign: 'center', lineHeight: '10px' }}>
-                    <Row style={{ marginBottom: '2em' }}>
+                <Header style={{ textAlign: 'center', lineHeight: '10px' }} >
+                    <Row style={{ marginBottom: '2em' }} >
                         <img src="https://seeklogo.com/images/O/open-library-logo-0AB99DA900-seeklogo.com.png" alt="logo" height="110px" ></img>
                     </Row>
                 </Header>
