@@ -1,4 +1,5 @@
-*published : https://mybook-store-nu-pink.now.sh/
+### `npm start`: https://mybook-store-nu-pink.now.sh/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
