@@ -9,7 +9,7 @@ const BooksItems = (props) => {
     return (
         props.book ?
             <Col className="col-10 mx-auto col-md-6 col-lg-4 my-3">
-                <Card className="card border-bottom-0 rounded-top  "  >
+                <Card className="shadow  card border-bottom-0 rounded-top  "  >
                     <Card.Body>
                         <Card.Title>
                             <a href={props.book.volumeInfo.previewLink} target="new">
