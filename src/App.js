@@ -47,7 +47,7 @@ export class App extends Component {
           <Row className="myItems">
             {
               this.state.books.length > 0 ?
-                this.state.books.map((book, i) =>
+                this.state.books.slice(0, 9).map((book, i) =>
                   book ?
                     <BooksItems key={i} book={book} deleteTask={this.deleteTask} />
                     : null
