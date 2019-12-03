@@ -1,4 +1,4 @@
-### `npm start`: https://mybook-store-nu-pink.now.sh/
+### `npm start`: https://mybook-store.kk2111436.now.sh/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
